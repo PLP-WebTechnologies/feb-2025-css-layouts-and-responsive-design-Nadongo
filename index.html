@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- navigation bar using flexbox-->
+    <nav class="navbar">
+        <div class="logo">ResposiveDesign</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </nav>
+
+        <!--Editing the first part-Hero section-->
+        <section class="hero">
+            <h1>Modern Resposive Web Design</h1>
+            <p>Leran how to create beautiful repsonsive pages</p>
+        </section>
+
+        <!-- Implementing use of CSS Grid -->
+         <section class="features">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3> Flexbox Layout</h3>
+                    <p>Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex to fill additional space and shrink to fit into smaller spaces.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>CSS Grid Layout</h3>
+                    <p> CSS Grid Layout is a two-dimensional layout system that lets you organize content in rows and columns, making complex layouts much easier to achieve.</p>
+                </div>
+                <div class="feature-card">
+                    <h3> Media Queries</h3>
+                    <p>Media queries allow you to apply CSS styles based on device characteristics, most commonly the viewport width, to create responsive designs.</p>
+                </div>
+            </div>
+         </section>
+
+         <!--Content section using flexbox-->
+         <section class="content-section">
+            <h2>Content Layout Example</h2>
+            <div class="content-container">
+                <div class="main-content">
+                    <h3>Main Content Area</h3>
+                    <p>This is the main content area that takes up more space on the screen. For desktop layouts, this sits side-by-side with the sidebar. For mobile views, it stacks on top of the sidebar.</p>
+                    <p>This type of responsive layout is perfect for blogs, documentation sites, and many types of content-focused websites.</p>
+                    <p>The layout is built using Flexbox, which makes it easy to adjust the layout based on screen size using media queries.</p>
+                </div>
+            </div>
+            <div class="sidebar">
+                <h3>Sidebar</h3>
+                <p>This is a sidebar that contains additional information or navigation. On smaller screens, it will move below the main content area.</p>
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>Flexbox Layouts</li>
+                    <li>CSS Grid systems</li>
+                    <li>Mobile first Approach</li>
+                </ul>
+            </div>
+         </section>
+
+    <footer>
+        <p>&copy; 2025 Responsive Layout</p>
+    </footer>
+    
+</body>
+</html>
